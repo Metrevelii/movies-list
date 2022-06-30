@@ -1,4 +1,5 @@
-import Section from "../UI/Section";
+// import Section from "../UI/Section";
+import HeadContainer from '../UI/HeadContainer';
 import MoviesForm from "./MoviesForm";
 import useHttp from "../../hooks/use-http";
 
@@ -25,10 +26,10 @@ const NewMovie = (props) => {
   };
 
   return (
-    <Section>
+    <HeadContainer>
       <MoviesForm onEnterMovie={enterMovieHandler} loading={isLoading} />
       {error && <p>{error}</p>}
-    </Section>
+    </HeadContainer>
   );
 };
 

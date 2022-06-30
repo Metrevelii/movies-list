@@ -1,0 +1,10 @@
+.serie {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.serie:last-of-type {
+  border-bottom: none;
+}
